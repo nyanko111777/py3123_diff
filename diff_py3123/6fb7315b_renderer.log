@@ -1,0 +1,22 @@
+2025-04-10 05:45:05.231 [info] Started local extension host with pid 3708.
+2025-04-10 05:45:05.272 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization
+product.json (WINS): portsAttributes, contribIssueReporter
+2025-04-10 05:45:08.166 [info] [perf] Render performance baseline is 72ms
+2025-04-10 05:45:11.126 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization
+product.json (WINS): portsAttributes, contribIssueReporter
+2025-04-10 05:45:12.118 [error] [Extension Host] [TerminalRegistry] Error setting up shell execution handlers: Error: Extension 'RooVeterinaryInc.roo-cline' CANNOT use API proposal: terminalShellIntegration.
+Its package.json#enabledApiProposals-property declares: [] but NOT terminalShellIntegration.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api RooVeterinaryInc.roo-cline
+	at C (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:140:51400)
+	at Object.onDidStartTerminalShellExecution (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:32985)
+	at cf.initialize (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.11\dist\extension.js:956:3927)
+	at pmo (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.11\dist\extension.js:3790:3741)
+	at async a.n (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6237)
+	at async a.m (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6200)
+	at async a.l (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:5657)
+2025-04-10 05:45:12.984 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)

@@ -1,0 +1,55 @@
+0 verbose cli C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node.exe C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\kabu_server\000_work\py3123\'--'\.npmrc
+5 silly config load:file:C:\Users\kabu_server\000_work\py3123\_local_env\userprofile\.npmrc
+6 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\etc\npmrc
+7 verbose title npm install @types/node
+8 verbose argv "install" "--save-dev" "@types/node"
+9 verbose logfile logs-max:10 dir:C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_54_825Z-
+10 verbose logfile C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_54_825Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/node@*
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 535ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+19 silly placeDep ROOT @types/node@22.14.0 OK for: '--'@1.0.0 want: *
+20 silly fetch manifest undici-types@~6.21.0
+21 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/undici-types 79ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+24 silly placeDep ROOT undici-types@6.21.0 OK for: @types/node@22.14.0 want: ~6.21.0
+25 silly reify moves {}
+26 silly audit bulk request {
+26 silly audit   '@playwright/test': [ '1.51.1' ],
+26 silly audit   fsevents: [ '2.3.2' ],
+26 silly audit   playwright: [ '1.51.1' ],
+26 silly audit   'playwright-core': [ '1.51.1' ],
+26 silly audit   '@types/node': [ '22.14.0' ],
+26 silly audit   'undici-types': [ '6.21.0' ]
+26 silly audit }
+27 verbose reify failed optional dependency C:\Users\kabu_server\000_work\py3123\'--'\node_modules\fsevents
+28 silly reify mark deleted [
+28 silly reify   "C:\\Users\\kabu_server\\000_work\\py3123\\'--'\\node_modules\\fsevents"
+28 silly reify ]
+29 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 0ms (cache hit)
+30 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-22.14.0.tgz 0ms (cache hit)
+31 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+32 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.14.0.tgz. Extracting by manifest.
+33 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 202ms
+34 silly audit report {}
+35 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 339ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.14.0.tgz 564ms (cache miss)
+37 silly ADD node_modules/undici-types
+38 silly ADD node_modules/@types/node
+39 silly ADD
+40 verbose cwd C:\Users\kabu_server\000_work\py3123\'--'
+41 verbose os Windows_NT 10.0.26100
+42 verbose node v22.14.0
+43 verbose npm  v10.9.2
+44 verbose exit 0
+45 info ok

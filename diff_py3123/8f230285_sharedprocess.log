@@ -1,0 +1,8 @@
+2025-04-10 05:31:54.872 [info] Deleted uninstalled extension from disk rooveterinaryinc.roo-cline c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.10
+2025-04-10 05:31:55.137 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.10.158f5c05.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.10.158f5c05.vsctmp'
+    at r.create (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30080)
+    at a (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30195)
+    at i.fb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:36500)
+    at i.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:28946)
+    at async $.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:16092)
+    at async K.sb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:104:108402)

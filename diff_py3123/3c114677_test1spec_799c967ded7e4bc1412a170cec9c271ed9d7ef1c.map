@@ -1,0 +1,1 @@
+{"version":3,"names":["_test","require","test","page"],"sources":["test-1.spec.ts"],"sourcesContent":["import { test, expect } from '@playwright/test';\n\ntest('test', async ({ page }) => {\n  // Recording...\n});"],"mappings":";;AAAA,IAAAA,KAAA,GAAAC,OAAA;AAEA,IAAAC,UAAI,EAAC,MAAM,EAAE,OAAO;EAAEC;AAAK,CAAC,KAAK;EAC/B;AAAA,CACD,CAAC","ignoreList":[]}

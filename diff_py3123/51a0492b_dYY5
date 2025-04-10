@@ -1,0 +1,44 @@
+.ipynb_checkpoints/
+node-v22.14.0-win-x64/
+_local_env\_tmp
+build/
+backend/
+*.pyc
+
+# 50MB�ȏ�̑傫�ȃt�@�C��
+_local_env\localappdata\ms-playwright\chromium-1161\chrome-win\chrome.dll_split
+_local_env\localappdata\ms-playwright\chromium_headless_shell-1161\chrome-win\headless_shell.exe_split
+_local_env\localappdata\ms-playwright\firefox-1475\firefox\xul.dll_split
+node-v22.14.0-win-x64\node.exe_split
+
+# 50MB以上の大きなファイル
+.git\lfs\objects\2e\44\2e44bf9d9f8f32abb8d00738e2e03b08f8e0180ea0d3da9015c95b834b54d92f
+.git\lfs\objects\2e\44\2e44bf9d9f8f32abb8d00738e2e03b08f8e0180ea0d3da9015c95b834b54d92f_split
+.git\lfs\objects\33\b1\33b1bc1a8aca11fd5a4f2699e51019c63c0af30cf437701d07af69be7706771b
+.git\lfs\objects\33\b1\33b1bc1a8aca11fd5a4f2699e51019c63c0af30cf437701d07af69be7706771b_split
+.git\lfs\objects\8c\41\8c41d43e1ba13bc6bbe979b9cd60da14055fd573d2d75097e16351d299aa9bb8
+.git\lfs\objects\8c\41\8c41d43e1ba13bc6bbe979b9cd60da14055fd573d2d75097e16351d299aa9bb8_split
+.git\lfs\objects\92\80\92805300e86a454c5aa8e8be13e766bec0c6b4ddffbab05f3cc3247f19969297
+.git\lfs\objects\92\80\92805300e86a454c5aa8e8be13e766bec0c6b4ddffbab05f3cc3247f19969297_split
+2e44bf9d9f8f32abb8d00738e2e03b08f8e0180ea0d3da9015c95b834b54d92f
+33b1bc1a8aca11fd5a4f2699e51019c63c0af30cf437701d07af69be7706771b
+8c41d43e1ba13bc6bbe979b9cd60da14055fd573d2d75097e16351d299aa9bb8
+92805300e86a454c5aa8e8be13e766bec0c6b4ddffbab05f3cc3247f19969297
+_local_env\localappdata\ms-playwright\chromium-1161\chrome-win\chrome.dll
+_local_env\localappdata\ms-playwright\chromium_headless_shell-1161\chrome-win\headless_shell.exe
+_local_env\localappdata\ms-playwright\firefox-1475\firefox\xul.dll
+chrome.dll
+headless_shell.exe
+node-v22.14.0-win-x64\node.exe
+node.exe
+xul.dll
+
+# 50MB以上の大きなファイル
+python3123\Lib\site-packages\playwright\driver\node.exe
+python3123\Lib\site-packages\playwright\driver\node.exe_split
+
+# 50MB以上の大きなファイル
+.git\objects\pack\pack-1398aa3b048d13cbc3fd30d0965fa2cc30dffaa8.pack
+.git\objects\pack\pack-1398aa3b048d13cbc3fd30d0965fa2cc30dffaa8.pack_split
+pack-1398aa3b048d13cbc3fd30d0965fa2cc30dffaa8.pack
+_local_env/userroaming/Code/CachedData/e170252f762678dec6ca2cc69aba1570769a5d39/clone-f400b08d98c17d31103868cbeb3923cb.code

@@ -1,0 +1,15 @@
+2025-04-10 05:33:06.658 [info] 実験 'pythonTerminalEnvVarActivation' はアクティブです
+2025-04-10 05:33:06.811 [info] Default formatter is set to null for workspace c:\Users\kabu_server\000_work\py3123
+2025-04-10 05:33:06.912 [info] Test server listening.
+2025-04-10 05:33:07.064 [info] > conda info --json
+2025-04-10 05:33:07.072 [info] > hatch env show --json
+2025-04-10 05:33:07.072 [info] cwd: .
+2025-04-10 05:33:07.115 [info] > pyenv which python
+2025-04-10 05:33:07.115 [info] cwd: .
+2025-04-10 05:33:08.237 [info] > .\python3123\python.exe -I ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\interpreterInfo.py
+2025-04-10 05:33:08.340 [info] > ~\AppData\Local\Programs\Python\Python312\python.exe -I ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\interpreterInfo.py
+2025-04-10 05:33:09.561 [info] > ~\miniconda3\python.exe -I ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\interpreterInfo.py
+2025-04-10 05:33:25.366 [info] > C:\Users\MS\miniconda3\python.exe -I ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\interpreterInfo.py
+2025-04-10 05:33:25.404 [info] > ~\miniconda3\envs\fileviewer\python.exe -I ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2024.4.1\python_files\interpreterInfo.py
+2025-04-10 05:33:25.879 [info] Python インタープリター パス: ~\AppData\Local\Programs\Python\Python312\python.exe
+2025-04-10 05:33:27.598 [info] Pylance 言語サーバーを開始しています。

@@ -1,0 +1,67 @@
+0 verbose cli C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node.exe C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\kabu_server\000_work\py3123\'--'\.npmrc
+5 silly config load:file:C:\Users\kabu_server\000_work\py3123\_local_env\userprofile\.npmrc
+6 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\etc\npmrc
+7 verbose title npm install @playwright/test
+8 verbose argv "install" "--save-dev" "@playwright/test"
+9 verbose logfile logs-max:10 dir:C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_49_940Z-
+10 verbose logfile C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_49_940Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @playwright/test@*
+16 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 465ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+19 silly placeDep ROOT @playwright/test@1.51.1 OK for: '--'@1.0.0 want: *
+20 silly fetch manifest playwright@1.51.1
+21 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/playwright 407ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+24 silly placeDep ROOT playwright@1.51.1 OK for: @playwright/test@1.51.1 want: 1.51.1
+25 silly fetch manifest playwright-core@1.51.1
+26 silly packumentCache full:https://registry.npmjs.org/playwright-core cache-miss
+27 silly fetch manifest fsevents@2.3.2
+28 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/fsevents 148ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/playwright-core 465ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/playwright-core set size:undefined disposed:false
+33 silly placeDep ROOT fsevents@2.3.2 OK for: playwright@1.51.1 want: 2.3.2
+34 silly placeDep ROOT playwright-core@1.51.1 OK for: playwright@1.51.1 want: 1.51.1
+35 silly reify moves {}
+36 silly audit bulk request {
+36 silly audit   '@playwright/test': [ '1.51.1' ],
+36 silly audit   playwright: [ '1.51.1' ],
+36 silly audit   fsevents: [ '2.3.2' ],
+36 silly audit   'playwright-core': [ '1.51.1' ]
+36 silly audit }
+37 verbose reify failed optional dependency C:\Users\kabu_server\000_work\py3123\'--'\node_modules\fsevents
+38 silly reify mark deleted [
+38 silly reify   "C:\\Users\\kabu_server\\000_work\\py3123\\'--'\\node_modules\\fsevents"
+38 silly reify ]
+39 http cache playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.51.1.tgz 0ms (cache hit)
+40 http cache playwright@https://registry.npmjs.org/playwright/-/playwright-1.51.1.tgz 1ms (cache hit)
+41 silly tarball no local data for playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.51.1.tgz. Extracting by manifest.
+42 http cache @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.51.1.tgz 0ms (cache hit)
+43 silly tarball no local data for playwright@https://registry.npmjs.org/playwright/-/playwright-1.51.1.tgz. Extracting by manifest.
+44 silly tarball no local data for @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.51.1.tgz. Extracting by manifest.
+45 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 186ms
+46 silly audit report {}
+47 http fetch GET 200 https://registry.npmjs.org/@playwright/test/-/test-1.51.1.tgz 326ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/playwright/-/playwright-1.51.1.tgz 873ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/playwright-core/-/playwright-core-1.51.1.tgz 1610ms (cache miss)
+50 silly ADD node_modules/playwright-core
+51 silly ADD
+52 silly ADD node_modules/playwright
+53 silly ADD node_modules/@playwright/test
+54 verbose cwd C:\Users\kabu_server\000_work\py3123\'--'
+55 verbose os Windows_NT 10.0.26100
+56 verbose node v22.14.0
+57 verbose npm  v10.9.2
+58 verbose exit 0
+59 info ok

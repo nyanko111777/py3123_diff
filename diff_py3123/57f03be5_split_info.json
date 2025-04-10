@@ -1,0 +1,15 @@
+{
+  "original_path": "node-v22.14.0-win-x64\\node.exe",
+  "original_size": 83344536,
+  "chunk_size_mb": 49,
+  "chunks": [
+    {
+      "name": "node.exe.part000",
+      "size": 51380224
+    },
+    {
+      "name": "node.exe.part001",
+      "size": 31964312
+    }
+  ]
+}

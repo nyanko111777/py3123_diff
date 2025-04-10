@@ -1,0 +1,15 @@
+2025-04-10 05:33:08.314 [info] Name: Python Debugger
+2025-04-10 05:33:08.315 [info] Module: debugpy
+2025-04-10 05:33:08.315 [error] sendDebugpySuccessActivationTelemetry() failed. [Error: Extension 'ms-python.debugpy' CANNOT use API proposal: debugVisualization.
+Its package.json#enabledApiProposals-property declares: portsAttributes, contribIssueReporter but NOT debugVisualization.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at C (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:140:51400)
+	at Object.registerDebugVisualizationTreeProvider (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:44119)
+	at t.registerDebugger (c:\Users\kabu_server\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\dist\extension.js:2:880949)
+	at e.activate (c:\Users\kabu_server\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\dist\extension.js:2:1128458)
+	at W.kb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:13457)
+	at W.jb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:13167)
+	at c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:11189
+	at async a.n (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6237)
+	at async a.m (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6200)
+	at async a.l (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:5657)]

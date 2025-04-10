@@ -1,0 +1,29 @@
+2025-04-10 18:15:15.444 [info] Getting Manifest... rooveterinaryinc.roo-cline
+2025-04-10 18:15:15.552 [info] Installing extension: rooveterinaryinc.roo-cline
+2025-04-10 18:15:19.172 [info] Extension signature is verified: rooveterinaryinc.roo-cline
+2025-04-10 18:15:20.073 [info] Extracted extension to file:///c%3A/Users/kabu_server/.vscode/extensions/rooveterinaryinc.roo-cline-3.11.12: rooveterinaryinc.roo-cline
+2025-04-10 18:15:20.082 [info] Renamed to c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.12
+2025-04-10 18:15:20.086 [info] Extracting extension completed. rooveterinaryinc.roo-cline
+2025-04-10 18:15:20.106 [info] Extension installed successfully: rooveterinaryinc.roo-cline
+2025-04-10 18:15:20.119 [info] Marked extension as uninstalled rooveterinaryinc.roo-cline-3.11.11
+2025-04-10 18:15:20.164 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\extensions.json.vsctmp'
+    at r.create (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30080)
+    at a (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30195)
+    at i.fb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:36500)
+    at i.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:28946)
+    at async $.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:16092)
+    at async K.sb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:104:108402)
+2025-04-10 18:26:34.487 [info] Getting Manifest... ms-playwright.playwright
+2025-04-10 18:26:34.515 [info] Installing extension: ms-playwright.playwright
+2025-04-10 18:26:36.048 [info] Extension signature is verified: ms-playwright.playwright
+2025-04-10 18:26:36.164 [info] Extracted extension to file:///c%3A/Users/kabu_server/.vscode/extensions/ms-playwright.playwright-1.1.12: ms-playwright.playwright
+2025-04-10 18:26:36.174 [info] Renamed to c:\Users\kabu_server\.vscode\extensions\ms-playwright.playwright-1.1.12
+2025-04-10 18:26:36.178 [info] Extracting extension completed. ms-playwright.playwright
+2025-04-10 18:26:36.197 [info] Extension installed successfully: ms-playwright.playwright
+2025-04-10 18:26:36.225 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat 'c:\Users\kabu_server\.vscode\extensions\extensions.json.vsctmp'
+    at r.create (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30080)
+    at a (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:53:30195)
+    at i.fb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:36500)
+    at i.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:28946)
+    at async $.stat (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:58:16092)
+    at async K.sb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\node\sharedProcess\sharedProcessMain.js:104:108402)

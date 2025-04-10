@@ -1,0 +1,145 @@
+2025-04-10 19:37:32.945 [info] Extension host with pid 15264 started
+2025-04-10 19:37:32.945 [info] Skipping acquiring lock for c:\Users\kabu_server\000_work\py3123\_local_env\userroaming\Code\User\workspaceStorage\22031152046e77872278d516be30adb5.
+2025-04-10 19:37:33.108 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-10 19:37:33.110 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-04-10 19:37:35.526 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-04-10 19:37:35.563 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-10 19:37:35.565 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2025-04-10 19:37:35.766 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2025-04-10 19:37:36.083 [info] ExtensionService#_doActivateExtension ms-playwright.playwright, startup: true, activationEvent: 'workspaceContains:**/*playwright*.config.{ts,js,mjs}'
+2025-04-10 19:37:36.090 [error] Failed to load translations for ms-playwright.playwright from file:///c%3A/Users/kabu_server/.vscode/extensions/ms-playwright.playwright-1.1.12/l10n/bundle.l10n.ja.json: ファイル 'c:\Users\kabu_server\.vscode\extensions\ms-playwright.playwright-1.1.12\l10n\bundle.l10n.ja.json' を読み取れません (Error: 存在しないファイル 'c:\Users\kabu_server\.vscode\extensions\ms-playwright.playwright-1.1.12\l10n\bundle.l10n.ja.json' を解決できません)
+2025-04-10 19:37:36.216 [warning] Using default string since no string found in i18n bundle that has the key: No Playwright tests found.
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-10 19:37:36.225 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-10 19:37:36.226 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-10 19:37:36.226 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-10 19:37:37.527 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-10 19:37:37.537 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-10 19:37:40.336 [info] Eager extensions activated
+2025-04-10 19:37:40.376 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 19:37:40.396 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 19:37:40.401 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-10 19:37:43.212 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-10 19:37:43.214 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-10 19:37:43.214 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-10 19:37:43.214 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-10 19:37:43.214 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-10 19:37:43.215 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-10 19:37:43.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1244
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-10 19:37:44.193 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-10 19:37:44.194 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-10 19:37:44.194 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-10 19:37:44.194 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-10 19:37:44.207 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-10 19:37:47.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1245
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-10 19:37:47.775 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-10 19:37:49.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1246
+2025-04-10 19:37:55.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1246
+2025-04-10 19:38:01.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1246
+2025-04-10 19:38:07.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1246
+2025-04-10 19:38:13.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1244
+2025-04-10 19:38:35.210 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-10 19:38:46.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-10 20:05:36.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-10 20:05:48.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-11 05:23:23.977 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-11 05:23:35.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-11 05:23:47.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1247
+2025-04-11 05:24:51.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1543
+2025-04-11 05:25:02.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1543
+2025-04-11 05:25:25.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1543
+2025-04-11 05:25:26.892 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-11 05:25:26.892 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-11 05:25:26.892 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-11 05:25:26.892 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-11 05:25:26.892 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-11 05:25:26.893 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-11 05:25:26.893 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-11 05:25:26.894 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-11 05:25:26.897 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-11 05:25:26.897 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-11 05:25:26.897 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-11 05:25:27.128 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-11 05:25:27.129 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-11 05:25:27.130 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-11 05:25:27.130 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-11 05:25:27.130 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-11 05:25:27.182 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-11 05:25:27.183 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-11 05:25:27.184 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-11 05:25:27.184 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Pick locator
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Record new
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Record at cursor
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Reveal test output
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Close all browsers
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Run global setup
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Run global teardown
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Start dev server
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Stop dev server
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Clear cache
+2025-04-11 05:25:27.205 [warning] Using default string since no string found in i18n bundle that has the key: Toggle Playwright Configs

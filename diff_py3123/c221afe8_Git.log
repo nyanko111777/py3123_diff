@@ -1,0 +1,15 @@
+2025-04-10 05:31:30.143 [info] ログ レベル: Info
+2025-04-10 05:31:30.143 [info] Git の検証が検出されました: "C:\Program Files\Git\cmd\git.exe"
+2025-04-10 05:31:30.260 [info] "C:\Program Files\Git\cmd\git.exe" から Git "2.41.0.windows.3" を使用しています
+2025-04-10 05:31:33.844 [info] > git rev-parse --show-toplevel [3549ms]
+2025-04-10 05:31:34.042 [info] > git rev-parse --show-toplevel [109ms]
+2025-04-10 05:31:34.154 [info] > git rev-parse --show-toplevel [106ms]
+2025-04-10 05:31:34.255 [info] > git rev-parse --show-toplevel [95ms]
+2025-04-10 05:31:34.343 [info] > git rev-parse --show-toplevel [82ms]
+2025-04-10 05:31:34.429 [info] > git rev-parse --show-toplevel [80ms]
+2025-04-10 05:31:34.516 [info] > git rev-parse --show-toplevel [81ms]
+2025-04-10 05:31:34.601 [info] > git rev-parse --show-toplevel [79ms]
+2025-04-10 05:31:34.685 [info] > git rev-parse --show-toplevel [78ms]
+2025-04-10 05:31:34.818 [info] > git rev-parse --show-toplevel [126ms]
+2025-04-10 05:31:34.948 [info] > git rev-parse --show-toplevel [124ms]
+2025-04-10 05:31:35.088 [info] > git rev-parse --show-toplevel [133ms]

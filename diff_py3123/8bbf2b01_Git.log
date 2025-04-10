@@ -1,0 +1,56 @@
+2025-04-10 05:46:20.776 [info] ログ レベル: Info
+2025-04-10 05:46:20.776 [info] Git の検証が検出されました: "C:\Program Files\Git\cmd\git.exe"
+2025-04-10 05:46:20.860 [info] "C:\Program Files\Git\cmd\git.exe" から Git "2.41.0.windows.3" を使用しています
+2025-04-10 05:46:21.937 [info] > git rev-parse --show-toplevel [1045ms]
+2025-04-10 05:46:22.132 [info] > git rev-parse --git-dir --git-common-dir [121ms]
+2025-04-10 05:46:22.144 [info] Open repository: c:\Users\kabu_server\000_work\py3123_diff
+2025-04-10 05:46:22.300 [info] > git config --get commit.template [145ms]
+2025-04-10 05:46:22.308 [info] > git rev-parse --show-toplevel [146ms]
+2025-04-10 05:46:22.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [149ms]
+2025-04-10 05:46:22.328 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:46:22.428 [info] > git rev-parse refs/remotes/origin/main [100ms]
+2025-04-10 05:46:22.699 [info] > git status -z -uall [265ms]
+2025-04-10 05:46:23.087 [info] > git check-ignore -v -z --stdin [399ms]
+2025-04-10 05:46:23.088 [info] > git merge-base refs/heads/main refs/remotes/origin/main [253ms]
+2025-04-10 05:46:23.200 [info] > git config --get commit.template [156ms]
+2025-04-10 05:46:23.205 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [149ms]
+2025-04-10 05:46:23.210 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:46:23.287 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [190ms]
+2025-04-10 05:46:23.381 [info] > git rev-parse refs/remotes/origin/main [171ms]
+2025-04-10 05:46:23.439 [info] > git diff --name-status -z --diff-filter=ADMR 4868ea700e01ef2ba5441bd4ac97253dffadf8be...refs/remotes/origin/main [142ms]
+2025-04-10 05:46:23.524 [info] > git status -z -uall [138ms]
+2025-04-10 05:46:24.122 [info] > git merge-base refs/heads/main refs/remotes/origin/main [139ms]
+2025-04-10 05:46:24.233 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [105ms]
+2025-04-10 05:46:25.264 [info] > git check-ignore -v -z --stdin [104ms]
+2025-04-10 05:46:26.378 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [150ms]
+2025-04-10 05:46:26.471 [info] > git config --get commit.template [88ms]
+2025-04-10 05:46:26.595 [info] > git config --get commit.template [116ms]
+2025-04-10 05:46:26.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [120ms]
+2025-04-10 05:46:26.610 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:46:26.709 [info] > git rev-parse refs/remotes/origin/main [99ms]
+2025-04-10 05:46:26.794 [info] > git status -z -uall [79ms]
+2025-04-10 05:46:26.978 [info] > git merge-base refs/heads/main refs/remotes/origin/main [176ms]
+2025-04-10 05:46:27.046 [info] > git merge-base refs/heads/main refs/remotes/origin/main [197ms]
+2025-04-10 05:46:27.056 [info] > git config --get commit.template [145ms]
+2025-04-10 05:46:27.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [163ms]
+2025-04-10 05:46:27.085 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:46:27.112 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [129ms]
+2025-04-10 05:46:27.165 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [113ms]
+2025-04-10 05:46:27.197 [info] > git rev-parse refs/remotes/origin/main [112ms]
+2025-04-10 05:46:27.224 [info] > git diff --name-status -z --diff-filter=ADMR 4868ea700e01ef2ba5441bd4ac97253dffadf8be...refs/remotes/origin/main [106ms]
+2025-04-10 05:46:27.289 [info] > git status -z -uall [86ms]
+2025-04-10 05:46:30.113 [info] > git log --oneline --cherry main...main@{upstream} -- [100ms]
+2025-04-10 05:46:31.251 [info] > git pull --tags origin main [1130ms]
+2025-04-10 05:46:31.251 [info] From https://github.com/nyanko111777/py3123_diff
+ * branch            main       -> FETCH_HEAD
+2025-04-10 05:46:34.600 [info] > git push origin main:main [3343ms]
+2025-04-10 05:46:34.600 [info] To https://github.com/nyanko111777/py3123_diff.git
+   4868ea7..4bc26a8  main -> main
+2025-04-10 05:46:34.685 [info] > git config --get commit.template [78ms]
+2025-04-10 05:46:34.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [83ms]
+2025-04-10 05:46:34.773 [info] > git status -z -uall [71ms]
+2025-04-10 05:46:34.892 [info] > git merge-base refs/heads/main refs/remotes/origin/main [109ms]
+2025-04-10 05:46:34.922 [info] > git merge-base refs/heads/main refs/remotes/origin/main [124ms]
+2025-04-10 05:46:35.006 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [104ms]
+2025-04-10 05:46:35.019 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [91ms]
+2025-04-10 05:46:35.097 [info] > git diff --name-status -z --diff-filter=ADMR 4bc26a861f3d13749bf4c6ec1bb01b6c3a1bf8e9...refs/remotes/origin/main [85ms]

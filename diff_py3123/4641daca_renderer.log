@@ -1,0 +1,79 @@
+2025-04-09 07:43:53.671 [info] Started local extension host with pid 2936.
+2025-04-09 07:43:53.782 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization
+product.json (WINS): portsAttributes, contribIssueReporter
+2025-04-09 07:43:57.917 [info] [perf] Render performance baseline is 84ms
+2025-04-09 07:43:58.688 [info] Extension host (LocalProcess pid: 2936) is unresponsive.
+2025-04-09 07:43:59.089 [info] Extension host (LocalProcess pid: 2936) is responsive.
+2025-04-09 07:43:59.089 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-04-09 07:43:59.213 [error] [Extension Host] [TerminalRegistry] Error setting up shell execution handlers: Error: Extension 'RooVeterinaryInc.roo-cline' CANNOT use API proposal: terminalShellIntegration.
+Its package.json#enabledApiProposals-property declares: [] but NOT terminalShellIntegration.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api RooVeterinaryInc.roo-cline
+	at C (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:140:51400)
+	at Object.onDidStartTerminalShellExecution (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:32985)
+	at cf.initialize (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.8\dist\extension.js:951:3927)
+	at Amo (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.8\dist\extension.js:3332:3741)
+	at async a.n (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6237)
+	at async a.m (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6200)
+	at async a.l (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:5657)
+2025-04-09 07:44:08.956 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
+2025-04-09 07:55:20.781 [error] Error: ファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません (Error: 実際にはディレクトリであるファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません)
+    at n.F (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19968)
+    at n.D (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19763)
+    at async l.M (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42596)
+    at async l.readStream (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42353)
+    at async L.Cb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:13615)
+    at async L.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:12062)
+    at async s.W (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:38746)
+    at async n.jb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1905:42861)
+    at async Promise.all (index 1)
+    at async m.C (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17522)
+    at async m.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17354)
+    at async k.setInput (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:8054)
+    at async r.S (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:24784)
+    at async r.L (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:23348)
+    at async r.openEditor (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:22337)
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2476:24162
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:37607
+    at async pt.xc (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2749:138956)
+2025-04-09 07:55:21.008 [error] Error: ファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません (Error: 実際にはディレクトリであるファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません)
+    at n.F (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19968)
+    at n.D (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19763)
+    at async l.M (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42596)
+    at async l.readStream (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42353)
+    at async L.Cb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:13615)
+    at async L.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:12062)
+    at async s.W (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:38746)
+    at async n.jb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1905:42861)
+    at async Promise.all (index 1)
+    at async m.C (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17522)
+    at async m.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17354)
+    at async k.setInput (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:8054)
+    at async r.S (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:24784)
+    at async r.L (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:23348)
+    at async r.openEditor (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:22337)
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2476:24162
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:37607
+    at async pt.xc (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2749:138956)
+2025-04-09 07:55:29.214 [error] Error: ファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません (Error: 実際にはディレクトリであるファイル 'c:\Users\kabu_server\000_work\py3123\markitdown' を読み取れません)
+    at n.F (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19968)
+    at n.D (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19763)
+    at async l.M (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42596)
+    at async l.readStream (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:42353)
+    at async L.Cb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:13615)
+    at async L.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:12062)
+    at async s.W (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2370:38746)
+    at async n.jb (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1905:42861)
+    at async Promise.all (index 1)
+    at async m.C (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17522)
+    at async m.resolve (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:1635:17354)
+    at async k.setInput (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2355:8054)
+    at async r.S (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:24784)
+    at async r.L (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:23348)
+    at async r.openEditor (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2353:22337)
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2476:24162
+    at async vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2359:37607
+    at async pt.xc (vscode-file://vscode-app/c:/Users/kabu_server/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/workbench.desktop.main.js:2749:138956)

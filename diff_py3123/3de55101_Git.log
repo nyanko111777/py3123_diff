@@ -1,0 +1,44 @@
+2025-04-10 05:45:12.181 [info] ログ レベル: Info
+2025-04-10 05:45:12.181 [info] Git の検証が検出されました: "C:\Program Files\Git\cmd\git.exe"
+2025-04-10 05:45:12.228 [info] "C:\Program Files\Git\cmd\git.exe" から Git "2.41.0.windows.3" を使用しています
+2025-04-10 05:45:12.308 [info] > git rev-parse --show-toplevel [68ms]
+2025-04-10 05:45:12.380 [info] > git rev-parse --git-dir --git-common-dir [65ms]
+2025-04-10 05:45:12.390 [info] Open repository: c:\Users\kabu_server\000_work\py3123_diff
+2025-04-10 05:45:12.505 [info] > git rev-parse --show-toplevel [99ms]
+2025-04-10 05:45:12.509 [info] > git config --get commit.template [109ms]
+2025-04-10 05:45:12.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [101ms]
+2025-04-10 05:45:12.523 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:45:12.590 [info] > git rev-parse refs/remotes/origin/main [67ms]
+2025-04-10 05:45:12.707 [info] > git status -z -uall [102ms]
+2025-04-10 05:45:12.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [212ms]
+2025-04-10 05:45:12.973 [info] > git config --get commit.template [232ms]
+2025-04-10 05:45:12.974 [info] > git merge-base refs/heads/main refs/remotes/origin/main [255ms]
+2025-04-10 05:45:12.995 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:45:13.075 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [95ms]
+2025-04-10 05:45:13.098 [info] > git check-ignore -v -z --stdin [110ms]
+2025-04-10 05:45:13.106 [info] > git rev-parse refs/remotes/origin/main [111ms]
+2025-04-10 05:45:13.169 [info] > git diff --name-status -z --diff-filter=ADMR 4868ea700e01ef2ba5441bd4ac97253dffadf8be...refs/remotes/origin/main [87ms]
+2025-04-10 05:45:13.198 [info] > git status -z -uall [87ms]
+2025-04-10 05:45:14.958 [info] > git merge-base refs/heads/main refs/remotes/origin/main [84ms]
+2025-04-10 05:45:15.033 [info] > git -c core.longpaths=true rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [68ms]
+2025-04-10 05:45:15.973 [info] > git check-ignore -v -z --stdin [106ms]
+2025-04-10 05:45:21.302 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [100ms]
+2025-04-10 05:45:21.302 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-10 05:45:21.430 [info] > git config --get-all user.name [121ms]
+2025-04-10 05:45:21.553 [info] > git config --get commit.template [117ms]
+2025-04-10 05:45:21.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [126ms]
+2025-04-10 05:45:21.574 [warning] ENOENT: no such file or directory, open 'c:\Users\kabu_server\000_work\py3123_diff\.git\refs\remotes\origin\main'
+2025-04-10 05:45:21.665 [info] > git rev-parse refs/remotes/origin/main [91ms]
+2025-04-10 05:45:21.762 [info] > git status -z -uall [92ms]

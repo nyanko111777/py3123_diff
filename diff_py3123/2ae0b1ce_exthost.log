@@ -1,0 +1,24 @@
+2025-04-10 05:31:29.487 [info] Extension host with pid 13688 started
+2025-04-10 05:31:29.487 [info] Skipping acquiring lock for c:\Users\kabu_server\000_work\py3123\_local_env\userroaming\Code\User\workspaceStorage\efe28b125c64ee25ccbd06f0302266b2.
+2025-04-10 05:31:29.536 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-10 05:31:29.538 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-04-10 05:31:29.773 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-10 05:31:29.793 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-10 05:31:30.276 [info] Eager extensions activated
+2025-04-10 05:31:30.314 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:30.317 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:30.322 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:33.808 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:41.809 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-10 05:31:41.885 [error] Canceled: Canceled
+	at new O (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:46998)
+	at u.U (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:149:2993)
+	at A.setValue (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:144:8994)
+	at c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:137:27799
+	at N.a (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:137:27917)
+	at N.h (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:99:20014)
+	at N.g (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:99:19998)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)
+2025-04-10 05:31:41.886 [info] Extension host with pid 13688 exiting with code 0

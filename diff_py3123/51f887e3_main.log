@@ -1,0 +1,4 @@
+2025-04-10 05:31:47.981 [info] update#setState disabled
+2025-04-10 05:31:47.984 [info] update#ctor - updates are disabled due to running as Admin in user setup
+2025-04-10 05:45:30.047 [info] Extension host with pid 3708 exited with code: 0, signal: unknown.
+2025-04-10 05:46:39.201 [info] Extension host with pid 14024 exited with code: 0, signal: unknown.

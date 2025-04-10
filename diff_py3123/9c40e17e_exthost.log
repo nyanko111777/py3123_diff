@@ -1,0 +1,48 @@
+2025-04-10 05:31:51.650 [info] Extension host with pid 2604 started
+2025-04-10 05:31:51.651 [info] Skipping acquiring lock for c:\Users\kabu_server\000_work\py3123\_local_env\userroaming\Code\User\workspaceStorage\22031152046e77872278d516be30adb5.
+2025-04-10 05:31:51.720 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-10 05:31:51.722 [info] ExtensionService#_doActivateExtension RooVeterinaryInc.roo-cline, startup: false, activationEvent: 'onLanguage'
+2025-04-10 05:31:56.344 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 05:31:56.345 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 05:31:56.346 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 05:31:57.616 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: false, activationEvent: 'onLanguage:markdown'
+2025-04-10 05:31:57.917 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2025-04-10 05:31:57.919 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-10 05:31:58.276 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-10 05:31:58.277 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-10 05:31:58.965 [info] Eager extensions activated
+2025-04-10 05:31:59.037 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:59.052 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:31:59.079 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 05:32:02.510 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-10 05:33:05.719 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-04-10 05:33:05.720 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-04-10 05:33:07.117 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-04-10 05:33:07.119 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-04-10 05:33:08.127 [error] Activating extension ms-python.debugpy failed due to an error:
+2025-04-10 05:33:08.127 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: debugVisualization.
+Its package.json#enabledApiProposals-property declares: portsAttributes, contribIssueReporter but NOT debugVisualization.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at C (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:140:51400)
+	at Object.registerDebugVisualizationTreeProvider (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:44119)
+	at t.registerDebugger (c:\Users\kabu_server\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\dist\extension.js:2:880949)
+	at e.activate (c:\Users\kabu_server\.vscode\extensions\ms-python.debugpy-2024.8.0-win32-x64\dist\extension.js:2:1128458)
+	at W.kb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:13457)
+	at W.jb (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:13167)
+	at c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:158:11189
+	at async a.n (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6237)
+	at async a.m (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6200)
+	at async a.l (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:5657)
+2025-04-10 05:33:31.049 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-10 05:34:13.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:34:19.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:34:28.996 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:34:40.440 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-04-10 05:34:43.088 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:34:48.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:34:54.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:35:01.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:35:06.872 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:35:50.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:35:57.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296
+2025-04-10 05:36:26.222 [warning] [Decorations] CAPPING events from decorations provider vscode.git 296

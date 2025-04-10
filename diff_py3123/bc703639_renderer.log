@@ -1,0 +1,18 @@
+2025-04-10 05:31:27.666 [info] Started local extension host with pid 13688.
+2025-04-10 05:31:27.949 [error] Extension 'ms-python.debugpy' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): portsAttributes, contribIssueReporter, debugVisualization
+product.json (WINS): portsAttributes, contribIssueReporter
+2025-04-10 05:31:30.539 [info] [perf] Render performance baseline is 76ms
+2025-04-10 05:31:33.627 [info] Extension host (LocalProcess pid: 13688) is unresponsive.
+2025-04-10 05:31:33.849 [info] Extension host (LocalProcess pid: 13688) is responsive.
+2025-04-10 05:31:33.850 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-04-10 05:31:33.939 [error] [Extension Host] [TerminalRegistry] Error setting up shell execution handlers: Error: Extension 'RooVeterinaryInc.roo-cline' CANNOT use API proposal: terminalShellIntegration.
+Its package.json#enabledApiProposals-property declares: [] but NOT terminalShellIntegration.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api RooVeterinaryInc.roo-cline
+	at C (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:140:51400)
+	at Object.onDidStartTerminalShellExecution (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:162:32985)
+	at cf.initialize (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.10\dist\extension.js:956:3927)
+	at Imo (c:\Users\kabu_server\.vscode\extensions\rooveterinaryinc.roo-cline-3.11.10\dist\extension.js:3417:3741)
+	at async a.n (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6237)
+	at async a.m (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:6200)
+	at async a.l (c:\Users\kabu_server\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\api\node\extensionHostProcess.js:142:5657)

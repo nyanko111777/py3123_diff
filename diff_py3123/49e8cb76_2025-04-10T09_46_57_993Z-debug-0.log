@@ -1,0 +1,19 @@
+0 verbose cli C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node.exe C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\kabu_server\000_work\py3123\'--'\.npmrc
+5 silly config load:file:C:\Users\kabu_server\000_work\py3123\_local_env\userprofile\.npmrc
+6 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\etc\npmrc
+7 verbose title npm exec playwright install
+8 verbose argv "exec" "--" "playwright" "install"
+9 verbose logfile logs-max:10 dir:C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_57_993Z-
+10 verbose logfile C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_46_57_993Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd C:\Users\kabu_server\000_work\py3123\'--'
+14 verbose os Windows_NT 10.0.26100
+15 verbose node v22.14.0
+16 verbose npm  v10.9.2
+17 verbose exit 0
+18 info ok

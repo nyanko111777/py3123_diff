@@ -1,0 +1,41 @@
+0 verbose cli C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node.exe C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\kabu_server\000_work\py3123\.npmrc
+5 silly config load:file:C:\Users\kabu_server\000_work\py3123\_local_env\userprofile\.npmrc
+6 silly config load:file:C:\Users\kabu_server\000_work\py3123\node-v22.14.0-win-x64\etc\npmrc
+7 verbose title npm init playwright@latest '--' '--quiet' '--browser=chromium' '--browser=firefox' '--browser=webkit' '--gha'
+8 verbose argv "init" "playwright@latest" "--yes" "'--'" "'--quiet'" "'--browser=chromium'" "'--browser=firefox'" "'--browser=webkit'" "'--gha'"
+9 verbose logfile logs-max:10 dir:C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_31_32_157Z-
+10 verbose logfile C:\Users\kabu_server\000_work\py3123\_local_env\localappdata\npm-cache\_logs\2025-04-10T09_31_32_157Z-debug-0.log
+11 silly logfile start cleaning logs, removing 10 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 http fetch GET 200 https://registry.npmjs.org/npm 247ms
+15 http fetch GET 200 https://registry.npmjs.org/create-playwright 221ms (cache miss)
+16 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+17 silly idealTree buildDeps
+18 silly fetch manifest create-playwright@1.17.135
+19 silly packumentCache full:https://registry.npmjs.org/create-playwright cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/create-playwright 122ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/create-playwright set size:undefined disposed:false
+22 silly placeDep ROOT create-playwright@1.17.135 OK for:  want: 1.17.135
+23 silly reify moves {}
+24 silly audit bulk request { 'create-playwright': [ '1.17.135' ] }
+25 http cache create-playwright@https://registry.npmjs.org/create-playwright/-/create-playwright-1.17.135.tgz 1ms (cache hit)
+26 silly tarball no local data for create-playwright@https://registry.npmjs.org/create-playwright/-/create-playwright-1.17.135.tgz. Extracting by manifest.
+27 http fetch GET 200 https://registry.npmjs.org/create-playwright/-/create-playwright-1.17.135.tgz 113ms (cache miss)
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 190ms
+29 silly audit report {}
+30 verbose cwd C:\Users\kabu_server\000_work\py3123
+31 verbose os Windows_NT 10.0.26100
+32 verbose node v22.14.0
+33 verbose npm  v10.9.2
+34 notice
+34 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.3.0[39m
+34 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.3.0[39m
+34 notice To update run: [4mnpm install -g npm@11.3.0[24m
+34 notice  { force: true, [Symbol(proc-log.meta)]: true }
+35 verbose exit 0
+36 info ok

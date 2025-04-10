@@ -1,0 +1,9 @@
+2025-04-10 18:31:23.304 [info] Latency measurements for local backend
+window<->ptyhost (message port): 1.20ms
+window<->ptyhostservice<->ptyhost: 3.20ms
+ptyhostservice<->ptyhost: 1.17ms []
+2025-04-10 18:31:28.913 [info] Latency measurements for local backend
+window<->ptyhost (message port): 0.70ms
+window<->ptyhostservice<->ptyhost: 2.40ms
+ptyhostservice<->ptyhost: 1.14ms []
+2025-04-10 18:58:54.750 [warning] Shell integration failed to add capabilities within 10 seconds []
